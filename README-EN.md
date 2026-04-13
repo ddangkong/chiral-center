@@ -180,6 +180,8 @@ All data (documents, simulation results, research, etc.) is stored in the **user
 
 This project is still in its early stages. We're looking for people who want to help build better simulations, richer analysis, and more diverse use cases. Ideas, bug reports, and PRs are all welcome. Let's evolve this together!
 
+Contact: **help@axortex.com**
+
 ## 📄 License
 
 This project is licensed under the [MIT License](LICENSE).
