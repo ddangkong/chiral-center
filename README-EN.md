@@ -9,7 +9,7 @@
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.115+-009688?logo=fastapi)](https://fastapi.tiangolo.com/)
 [![Python](https://img.shields.io/badge/Python-3.11+-3776AB?logo=python&logoColor=white)](https://python.org/)
 
-**한국어** | [English](README-EN.md)
+[한국어](README.md) | **English**
 
 **[Live Demo: www.axortex.com](https://www.axortex.com)** | **[Contact: help@axortex.com](mailto:help@axortex.com)**
 
