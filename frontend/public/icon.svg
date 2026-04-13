@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <defs>
+    <!-- Background gradient: orange → pink → purple → blue → cyan (bottom-left to top-right) -->
+    <linearGradient id="bg" x1="0" y1="400" x2="400" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%"   stop-color="#FF7200"/>
+      <stop offset="20%"  stop-color="#FF2A78"/>
+      <stop offset="44%"  stop-color="#9020D8"/>
+      <stop offset="70%"  stop-color="#1E52E8"/>
+      <stop offset="100%" stop-color="#00C8F8"/>
+    </linearGradient>
+
+    <!-- Glass shine at top -->
+    <linearGradient id="shine" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%"   stop-color="white" stop-opacity="0.32"/>
+      <stop offset="100%" stop-color="white" stop-opacity="0"/>
+    </linearGradient>
+
+    <!-- Clip to rounded square -->
+    <clipPath id="clip">
+      <rect width="400" height="400" rx="84" ry="84"/>
+    </clipPath>
+  </defs>
+
+  <!-- Background -->
+  <rect width="400" height="400" rx="84" fill="url(#bg)"/>
+
+  <!-- Glass sheen overlay -->
+  <g clip-path="url(#clip)">
+    <ellipse cx="200" cy="95" rx="196" ry="116" fill="url(#shine)" opacity="0.8"/>
+  </g>
+
+  <!--
+    Infinity symbol drawn as two loops with proper z-order crossing:
+    - Left loop drawn first (appears BEHIND at center crossing)
+    - Right loop drawn second (appears IN FRONT at center crossing)
+    Each loop: thick white outer stroke → same path with bg-gradient inner stroke = double-line ribbon effect
+  -->
+
+  <!-- LEFT LOOP (behind) -->
+  <path
+    d="M 200,200
+       C 200,156 175,110 120,110
+       C 62,110  26,156  26,202
+       C 26,248  64,290 120,290
+       C 176,290 200,244 200,200 Z"
+    fill="none"
+    stroke="white"
+    stroke-width="36"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+  <path
+    d="M 200,200
+       C 200,156 175,110 120,110
+       C 62,110  26,156  26,202
+       C 26,248  64,290 120,290
+       C 176,290 200,244 200,200 Z"
+    fill="none"
+    stroke="url(#bg)"
+    stroke-width="16"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+
+  <!-- RIGHT LOOP (in front) -->
+  <path
+    d="M 200,200
+       C 200,146 236,106 280,106
+       C 336,106 374,150 374,196
+       C 374,242 334,284 280,284
+       C 224,284 200,244 200,200 Z"
+    fill="none"
+    stroke="white"
+    stroke-width="36"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+  <path
+    d="M 200,200
+       C 200,146 236,106 280,106
+       C 336,106 374,150 374,196
+       C 374,242 334,284 280,284
+       C 224,284 200,244 200,200 Z"
+    fill="none"
+    stroke="url(#bg)"
+    stroke-width="16"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+</svg>

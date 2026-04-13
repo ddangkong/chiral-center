@@ -1,0 +1,27 @@
+{
+  "name": "chiral-center-frontend",
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "axios": "^1.7.0",
+    "d3": "^7.9.0",
+    "marked": "^14.0.0",
+    "pinia": "^2.2.0",
+    "pinia-plugin-persistedstate": "^4.7.1",
+    "vue": "^3.5.0",
+    "vue-router": "^4.4.0"
+  },
+  "devDependencies": {
+    "@types/d3": "^7.4.0",
+    "@vitejs/plugin-vue": "^5.1.0",
+    "@vue/tsconfig": "^0.5.0",
+    "typescript": "~5.5.0",
+    "vite": "^5.4.0",
+    "vue-tsc": "^2.1.0"
+  }
+}

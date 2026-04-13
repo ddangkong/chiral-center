@@ -1,0 +1,74 @@
+# Python virtual environments
+.miro/
+venv/
+.venv/
+env/
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+
+# Environment variables
+.env
+.env.local
+*.env
+
+# Node
+node_modules/
+frontend/dist/
+frontend/.nuxt/
+.pnpm-store/
+
+# Data & uploads (runtime data)
+backend/data/uploads/
+backend/data/ontologies/
+backend/data/graphs/
+backend/data/reports/
+
+# Logs
+*.log
+backend.log
+frontend.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Temporary
+tmp/
+temp/
+.tmp/
+.gstack/
+
+# Claude worktrees & temp
+.claude/worktrees/
+.claude/plans/
+.claude/settings.local.json
+
+# Vite cache
+.vite/
+
+# Backend data (simulations, databases, token usage)
+backend/data/simulations/
+backend/data/databases/
+backend/data/token_usage.json
+backend/data/research/
+backend/data/ownership.json
+
+# Lock files (large)
+backend/uv.lock
+
+# Server logs
+server.log
+backend_live.log
+frontend.log
+openapi_tmp.json
+
+.vercel

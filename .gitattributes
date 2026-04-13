@@ -1,0 +1,38 @@
+# 텍스트 파일은 LF로 정규화 — Windows/Unix 줄끝 혼용 방지
+# .editorconfig에서 charset=utf-8 강제
+
+* text=auto eol=lf
+
+# 소스 코드
+*.vue  text eol=lf
+*.ts   text eol=lf
+*.tsx  text eol=lf
+*.js   text eol=lf
+*.jsx  text eol=lf
+*.py   text eol=lf
+*.md   text eol=lf
+*.json text eol=lf
+*.html text eol=lf
+*.css  text eol=lf
+*.scss text eol=lf
+*.yml  text eol=lf
+*.yaml text eol=lf
+*.sh   text eol=lf
+
+# 배치는 CRLF 유지 (Windows)
+*.bat  text eol=crlf
+*.ps1  text eol=crlf
+
+# 바이너리
+*.png  binary
+*.jpg  binary
+*.jpeg binary
+*.gif  binary
+*.webp binary
+*.woff  binary
+*.woff2 binary
+*.ttf  binary
+*.otf  binary
+*.ico  binary
+*.pdf  binary
+*.svg  text eol=lf
