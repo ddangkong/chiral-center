@@ -11,7 +11,7 @@
 
 **한국어** | [English](README-EN.md)
 
-**[Live Demo: www.axortex.com](https://www.axortex.com)**
+**[Live Demo: www.axortex.com](https://www.axortex.com)** | **[Contact: help@axortex.com](mailto:help@axortex.com)**
 
 </div>
 

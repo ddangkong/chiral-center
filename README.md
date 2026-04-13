@@ -13,7 +13,7 @@
 
 [English](README-EN.md) | **한국어**
 
-**[Live Demo: www.axortex.com](https://www.axortex.com)**
+**[Live Demo: www.axortex.com](https://www.axortex.com)** | **[Contact: help@axortex.com](mailto:help@axortex.com)**
 
 </div>
 
