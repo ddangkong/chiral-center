@@ -11,6 +11,8 @@
 
 **한국어** | [English](README-EN.md)
 
+**[Live Demo: www.axortex.com](https://www.axortex.com)**
+
 </div>
 
 ---
@@ -169,6 +171,14 @@ chiral-center/
 ├── .env.example           # Environment variable template
 └── vercel.json            # Vercel deployment config
 ```
+
+## 🔒 Data Handling
+
+All data (documents, simulation results, research, etc.) is stored in the **user's local browser (localStorage)**. No personal data is permanently stored on the server. API keys are also encrypted and stored only in the browser.
+
+## 🤝 Contributing
+
+This project is still in its early stages. We're looking for people who want to help build better simulations, richer analysis, and more diverse use cases. Ideas, bug reports, and PRs are all welcome. Let's evolve this together!
 
 ## 📄 License
 
