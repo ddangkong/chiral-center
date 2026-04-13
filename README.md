@@ -32,9 +32,6 @@
 
 ## 📸 스크린샷
 
-> 스크린샷은 `static/screenshots/` 폴더에 추가 예정
-
-<!--
 <table>
   <tr>
     <td><img src="static/screenshots/home.png" alt="Home" width="400"/></td>
@@ -49,7 +46,6 @@
     <td><img src="static/screenshots/research.png" alt="Research" width="400"/></td>
   </tr>
 </table>
--->
 
 ## 🔄 워크플로우
 

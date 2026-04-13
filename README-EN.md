@@ -30,9 +30,6 @@ Upload papers, reports, or articles — the system automatically extracts key co
 
 ## 📸 Screenshots
 
-> Screenshots will be added to `static/screenshots/`
-
-<!--
 <table>
   <tr>
     <td><img src="static/screenshots/home.png" alt="Home" width="400"/></td>
@@ -47,7 +44,6 @@ Upload papers, reports, or articles — the system automatically extracts key co
     <td><img src="static/screenshots/research.png" alt="Research" width="400"/></td>
   </tr>
 </table>
--->
 
 ## 🔄 Workflow
 
