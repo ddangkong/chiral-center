@@ -34,16 +34,16 @@
 
 <table>
   <tr>
-    <td><img src="static/screenshots/home.png" alt="Home" width="400"/></td>
-    <td><img src="static/screenshots/graph.png" alt="Knowledge Graph" width="400"/></td>
+    <td><img src="static/screenshots/home.png?v=2" alt="Home" width="400"/></td>
+    <td><img src="static/screenshots/graph.png?v=2" alt="Knowledge Graph" width="400"/></td>
   </tr>
   <tr>
-    <td><img src="static/screenshots/persona.png" alt="Persona" width="400"/></td>
-    <td><img src="static/screenshots/simulation.png" alt="Simulation" width="400"/></td>
+    <td><img src="static/screenshots/persona.png?v=2" alt="Persona" width="400"/></td>
+    <td><img src="static/screenshots/simulation.png?v=2" alt="Simulation" width="400"/></td>
   </tr>
   <tr>
-    <td><img src="static/screenshots/report.png" alt="Report" width="400"/></td>
-    <td><img src="static/screenshots/research.png" alt="Research" width="400"/></td>
+    <td><img src="static/screenshots/report.png?v=2" alt="Report" width="400"/></td>
+    <td><img src="static/screenshots/research.png?v=2" alt="Research" width="400"/></td>
   </tr>
 </table>
 
